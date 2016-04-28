@@ -1,5 +1,11 @@
 ## Changelog
 
+## v1.1.5
+
+* Enhancements
+  * Extracted `:mime_types` out of Plug and added as dependency
+    * Add custom mime types in applications with `config :mime_types, custom: %{"mime" => ["types"]}`
+
 ## v1.1.4
 
 * Bug fixes
