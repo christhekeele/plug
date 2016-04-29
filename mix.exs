@@ -25,7 +25,7 @@ defmodule Plug.Mixfile do
 
   def deps do
     [
-     {:mime_types, "~> 0.1"},
+     {:mime, "~> 0.2"},
      {:cowboy, "~> 1.0", optional: true},
      {:earmark, "~> 0.1", only: :docs},
      {:ex_doc, "~> 0.11", only: :docs},
